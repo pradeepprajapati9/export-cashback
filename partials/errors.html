@@ -1,6 +1,6 @@
 <span class="badge text-bg-warning mb-2">Common Errors</span>
 <h1 class="fw-bold mb-2">These mistakes block your cashback</h1>
-<p class="text-secondary">The most-searched export refund errors — each one is fixable.</p>
+<p class="text-secondary">The most-searched export refund errors — each one has a fix guide.</p>
 
 <div class="row g-3 mt-1">
 
@@ -19,7 +19,7 @@
       <div class="card-body">
         <h5 class="card-title">📜 Scroll / scrip not generating</h5>
         <p class="card-text small text-secondary">The amount shows on ICEGATE but the scrip won't convert to cash — often a port-code / ledger issue.</p>
-        <span class="badge text-bg-light">Guide coming soon</span>
+        <a href="#scroll" class="btn btn-sm btn-outline-primary" onclick="load('scroll');return false;">Read fix guide →</a>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@
       <div class="card-body">
         <h5 class="card-title">🏦 e-BRC pending</h5>
         <p class="card-text small text-secondary">The bank hasn't confirmed the foreign payment to DGFT — the cashback stays on hold.</p>
-        <span class="badge text-bg-light">Guide coming soon</span>
+        <a href="#ebrc" class="btn btn-sm btn-outline-primary" onclick="load('ebrc');return false;">Read fix guide →</a>
       </div>
     </div>
   </div>
@@ -39,7 +39,27 @@
       <div class="card-body">
         <h5 class="card-title">📝 RoDTEP declaration missed</h5>
         <p class="card-text small text-secondary">Forgot to declare the claim on the shipping bill — a supplementary claim route may still exist.</p>
-        <span class="badge text-bg-light">Guide coming soon</span>
+        <a href="#supplementary" class="btn btn-sm btn-outline-primary" onclick="load('supplementary');return false;">Read fix guide →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">💳 PFMS / bank validation error</h5>
+        <p class="card-text small text-secondary">Refund sanctioned but not credited because the bank account failed PFMS validation.</p>
+        <a href="#pfms" class="btn btn-sm btn-outline-primary" onclick="load('pfms');return false;">Read fix guide →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">⚖️ IGST refund denied (higher drawback)</h5>
+        <p class="card-text small text-secondary">Refund blocked only because you claimed the higher duty drawback — courts have ruled in the exporter's favour.</p>
+        <a href="#drawback" class="btn btn-sm btn-outline-primary" onclick="load('drawback');return false;">Read fix guide →</a>
       </div>
     </div>
   </div>
