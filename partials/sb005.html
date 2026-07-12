@@ -1,49 +1,50 @@
 <span class="badge text-bg-primary-subtle text-primary-emphasis mb-2">IGST Refund · ICEGATE Error</span>
 <h1 class="fw-bold mb-2">SB005 Error Fix: Unblock your stuck IGST refund</h1>
-<p class="fs-5 text-secondary">SB005 aa raha hai aur IGST refund bank me nahi aaya? Paisa dooba nahi —
-data mismatch se block hai. Yaha wajah aur step-by-step fix.</p>
+<p class="fs-5 text-secondary">Seeing an SB005 error and your IGST refund hasn't hit your bank?
+The money isn't lost — it's blocked by a data mismatch. Here's why it happens and the
+step-by-step fix.</p>
 
-<h2 class="h4 mt-4">SB005 error hota kya hai?</h2>
-<p><b>SB005</b> IGST refund rokne wali sabse common error hai. Iska matlab: tumne
-<b>GST return (GSTR-1)</b> me jo invoice details bhari, wo <b>Shipping Bill</b> (Customs / ICEGATE)
-ki details se <b>match nahi</b> kar rahi. Do sarkari system confirm nahi kar paate ki ye same
-invoice hai, isliye system refund <b>hold</b> kar deta hai.</p>
+<h2 class="h4 mt-4">What is the SB005 error?</h2>
+<p><b>SB005</b> is the most common error that blocks IGST refunds on exports. It means the
+invoice details you filed in your <b>GST return (GSTR-1)</b> do <b>not match</b> the invoice
+details on your <b>Shipping Bill</b> (Customs / ICEGATE). Because the two government systems
+can't confirm it's the same invoice, the system <b>holds</b> your refund instead of releasing it.</p>
 
-<h2 class="h4 mt-4">Kyun aata hai? (Common causes)</h2>
+<h2 class="h4 mt-4">Why does it happen? (Common causes)</h2>
 <div class="table-responsive">
   <table class="table table-bordered align-middle">
     <thead class="table-primary"><tr><th>Mismatch in</th><th>Typical mistake</th></tr></thead>
     <tbody>
-      <tr><td>Invoice Number</td><td>GSTR-1 vs Shipping Bill me alag no. (extra space, prefix, /)</td></tr>
-      <tr><td>Invoice Value</td><td>Taxable / invoice value dono me alag</td></tr>
-      <tr><td>Invoice Date</td><td>Date alag entered</td></tr>
-      <tr><td>GSTIN / Port</td><td>Galat GSTIN ya port code</td></tr>
+      <tr><td>Invoice Number</td><td>Different number in GSTR-1 vs Shipping Bill (extra space, prefix, /)</td></tr>
+      <tr><td>Invoice Value</td><td>Taxable / invoice value differs between the two</td></tr>
+      <tr><td>Invoice Date</td><td>Date entered differently</td></tr>
+      <tr><td>GSTIN / Port</td><td>Wrong GSTIN or port code</td></tr>
     </tbody>
   </table>
 </div>
 
 <h2 class="h4 mt-4">Step-by-step fix</h2>
 <ol class="list-group list-group-numbered mb-3">
-  <li class="list-group-item"><b>Confirm SB005</b> — ICEGATE pe shipping bill ka refund/scroll status dekho, error code SB005 dikhega.</li>
-  <li class="list-group-item"><b>Mismatch dhundho</b> — GSTR-1 aur Shipping Bill ki invoice line side-by-side rakho; number, value, date compare karo. Aksar ek chhoti galti hoti hai.</li>
-  <li class="list-group-item"><b>Correction route chuno</b> — (a) ICEGATE online correction utility se detail update karo, ya (b) Officer Interface — Customs officer manually verify karke refund sanction karta hai (CBIC ne SB005 ke liye permanent facility di hai).</li>
-  <li class="list-group-item"><b>GST side theek karo (agar zaroori)</b> — galti GST return me thi to <b>GSTR-1 Table 9A</b> me invoice amend karo taaki match ho.</li>
-  <li class="list-group-item"><b>Re-validate &amp; track</b> — correction ke baad system dobara process karta hai, <b>scroll regenerate</b> hota hai. ICEGATE pe sanction hone tak check karte raho.</li>
+  <li class="list-group-item"><b>Confirm it's SB005</b> — On ICEGATE, check the refund/scroll status of the shipping bill; the error code shown will be SB005.</li>
+  <li class="list-group-item"><b>Find the mismatch</b> — Put the GSTR-1 invoice line and the Shipping Bill invoice line side by side; compare number, value and date. Usually it's one small difference.</li>
+  <li class="list-group-item"><b>Choose a correction route</b> — (a) Use the ICEGATE online correction utility to update the mismatched detail, or (b) Officer Interface — a Customs officer manually verifies and sanctions the refund (CBIC provides this as a permanent facility for SB005).</li>
+  <li class="list-group-item"><b>Fix the GST side if needed</b> — If the mistake was in your GST return, amend the invoice in <b>GSTR-1 Table 9A</b> so it matches the Shipping Bill.</li>
+  <li class="list-group-item"><b>Re-validate &amp; track</b> — After the correction the system reprocesses and the <b>scroll regenerates</b>. Keep checking ICEGATE until the amount is sanctioned.</li>
 </ol>
 
 <div class="alert alert-warning">
-  <b>Time-limit warning:</b> der mat karo. Expired claim window aur late correction hi wo tarika hai
-  jisse exporters ka refund <b>hamesha ke liye</b> doob jata hai. SB005 dikhte hi fix karo.
+  <b>Time-limit warning:</b> Don't sit on it. Expired claim windows and late corrections are exactly
+  how exporters permanently lose their refund. Fix an SB005 as soon as you spot it.
 </div>
 
 <div class="card bg-success text-white border-0 shadow-sm my-4">
   <div class="card-body text-center p-4">
-    <h3 class="h4">Still stuck? Hum release karwane me help karenge.</h3>
-    <p class="mb-3 opacity-75">Shipping bill details bhejo — kyun block hai batayenge aur recover karne me help karenge.
-      <b>No recovery, no fee.</b></p>
+    <h3 class="h4">Still stuck? We'll help you get it released.</h3>
+    <p class="mb-3 opacity-75">Send us your shipping bill details — we'll tell you why it's blocked
+      and help recover it. <b>No recovery, no fee.</b></p>
     <a class="btn btn-light fw-bold js-wa" data-msg="Hi, my IGST refund is stuck with SB005 error. Please help.">💬 WhatsApp Us</a>
   </div>
 </div>
 
-<p class="small text-secondary border-top pt-3 mb-0">General info based on current CBIC/ICEGATE/DGFT rules — badal sakta hai.
-Official ICEGATE portal ya qualified CA se latest procedure verify karo.</p>
+<p class="small text-secondary border-top pt-3 mb-0">General information based on current CBIC/ICEGATE/DGFT
+rules — these may change. Verify the latest procedure on the official ICEGATE portal or with a qualified CA.</p>
