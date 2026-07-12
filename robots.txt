@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pradeepprajapati9.github.io/export-cashback/sitemap.xml
